@@ -694,3 +694,7 @@ nav .head:after {
 	border-color: transparent transparent white transparent;
 }
 }
+footer{
+    position: absolute;
+    bottom: 0%;
+}
