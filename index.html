@@ -7,11 +7,11 @@
     <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="slider.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="DD.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/DD.png">
 </head>
-<body>
+<body oncontextmenu="return false;">
     <div class="header-logo">
-        <a href="#"><img src="DD.png" alt="logo"></a>
+        <a href="#"><img src="../img/DD.png" alt="logo"></a>
     </div>
 
     <!-- NAVBAR TWO
@@ -165,7 +165,24 @@
             </div>
         </div>
     </div>
-   
+    <footer>
+        <div class="footer">
+            <div class="btn_wrap">
+                <span>Share</span>
+                <div class="container">
+                    <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-github"></i>
+                </div>
+            </div>
+        
+        </div>
+    </footer>
     <script src="../js/home.js"></script>
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+    <noscript>Your browser does not support JavaScript!</noscript>
 </body>
 </html>
